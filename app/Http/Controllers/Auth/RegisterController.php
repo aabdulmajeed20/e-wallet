@@ -23,6 +23,8 @@ class RegisterController extends Controller
 
     use RegistersUsers;
 
+    protected $connection = 'mongodb';
+
     /**
      * Where to redirect users after registration.
      *
